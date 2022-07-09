@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LINQ
+namespace LINQ 
 {
     class Students
     {
@@ -13,6 +13,15 @@ namespace LINQ
         public String nm { get; set; }
         public int age { get; set; }
         public int Courseid { get; set; }
+
+        public Students()
+        {
+      
+        }
+        public Students(int STD)
+        {
+
+        }
 
 
     }
